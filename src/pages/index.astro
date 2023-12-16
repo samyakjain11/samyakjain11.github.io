@@ -1,0 +1,48 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card/index.astro";
+import IntroCard from "../components/IntroCard.astro";
+import TechStack from "../components/TechStack.astro";
+import Currently from "../components/Currently.astro";
+import Experience from "../components/Experience.astro";
+import MyBooks from "../components/MyBooks.astro";
+import HelloWorld from "../components/HelloWorld.astro";
+---
+
+<script>
+  import { stagger, spring, timeline, type TimelineDefinition } from "motion";
+  import { loaderAnimation } from "../lib/constants";
+  const cards = document.querySelectorAll(".card");
+
+  const sequence = [
+    loaderAnimation,
+    [
+      cards,
+      { y: ["40%", "0%"], opacity: [0, 1] },
+      {
+        at: "-0.1",
+        duration: 0.4,
+        delay: stagger(0.3),
+        easing: spring({ velocity: 100, stiffness: 50, damping: 10 }),
+      },
+    ],
+  ];
+
+  timeline(sequence as TimelineDefinition);
+</script>
+
+<Layout
+  title="Samyak Jain - Software Engineer"
+  description="Software engineer with strong focus on back-end, data, and full-stack engineering"
+>
+  <main
+    class="text-white m-auto p-2 grid gap-2 max-w-6xl overflow-hidden relative w-full sm:p-4 sm:gap-2 md:grid-cols-2 md:gap-3 md:p-6 lg:h-screen lg:grid-cols-4 lg:gap-4 lg:max-h-[800px]"
+  >
+    <IntroCard />
+    <Experience />
+    <TechStack />
+    <Currently />
+    <HelloWorld />
+    <MyBooks />
+  </main>
+</Layout>
