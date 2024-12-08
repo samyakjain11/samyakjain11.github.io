@@ -6,7 +6,6 @@ const parser = new MarkdownIt();
 
 export async function GET(context) {
   const blog = await getCollection("blog");
-  console.log("blog: ", blog);
   return rss({
     title: "Gianmarco Cavallo’s Blog",
     description: "my blog",
