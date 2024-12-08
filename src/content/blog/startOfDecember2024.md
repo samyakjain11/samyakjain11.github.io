@@ -2,7 +2,7 @@
 layout: ../../layouts/LayoutBlogPost.astro
 title: "Thoughts on December"
 description: "Ehhh"
-pubDate: 2024-12-07
+pubDate: 2024-11-29
 category: "Poems"
 ---
 
