@@ -2,11 +2,11 @@
 layout: ../../layouts/LayoutBlogPost.astro
 title: "Balancing Work"
 description: "Ehhh"
-pubDate: 2024-12-09
+pubDate: 2024-12-05
 category: "Internal Monologue"
 ---
 
-Coming into Bloomberg, I was told about the incredible work life balance- like most cultural aspects of any large company I failed to recognize that this was yet again a team dependent claim. I now find myself on a "fast-paced team" focused on delivering features to clients. For some context, I have been a full time software engineer for about 4 months at this point, and to this day, I have delivered 3 high-"ish" priority items, and been working on finishing up a project that was committed to clients for Q4 delivery that touches a fair amount of logic in our codebase.
+Coming into Bloomberg, I was told about the incredible work life balance- like most cultural aspects of any large company I failed to recognize that this was yet again a team dependent claim. I now find myself on a "fast-paced team" focused on delivering features to clients. For some context, I have been a full time software engineer for about 4 months at this point (2 of which were training), and to this day, I have delivered 3 high-"ish" priority items, and been working on finishing up a project that was committed to clients for Q4 delivery that touches a fair amount of logic in our codebase.
 <br> <br> 
 Something I have struggled with the past two months is drawing that firm boundary between work and life. The problem is that I truly enjoy my work which is a curse in disguise. Mark Twain once said that “find a job you enjoy doing, and you will never have to work a day in your life.”. I did exactly that- I found myself something that I genuinely enjoy doing, I enjoy delivering features and writing code so much so that I would do it in my free time- which is the root cause of this problem.
 <br> <br> 
