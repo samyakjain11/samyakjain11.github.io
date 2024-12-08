@@ -6,6 +6,7 @@ const parser = new MarkdownIt();
 
 export async function GET(context) {
   const blog = await getCollection("blog");
+  console.log("blog: ", blog);
   return rss({
     title: "Gianmarco Cavallo’s Blog",
     description: "my blog",
@@ -13,6 +14,7 @@ export async function GET(context) {
     items: blog.map((post) => ({
       title: post.data.title,
       pubDate: post.data.pubDate,
+      category: post.data.category,
       description: post.data.description,
       content: sanitizeHtml(parser.render(post.body)),
       // Compute RSS link from post `slug`
