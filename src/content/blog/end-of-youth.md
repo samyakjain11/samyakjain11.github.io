@@ -30,6 +30,14 @@ Where carefree fades, replaced by care,
 
 And the world feels heavier everywhere.
 <br><br>
+I carry the echoes of laughter now gone,
+
+Faces that fade but still linger on.
+
+The silence grows sharper, the absence more clear,
+
+As pieces of love disappear year by year.
+<br><br>
 But still, I stand in this strange new place,
 
 Wearing the years like a borrowed face.
