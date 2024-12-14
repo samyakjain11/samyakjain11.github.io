@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/LayoutBlogPost.astro
-title: "Context and Perspective- How They Shape Reality"
+title: "Context & Perspective"
 description: "Ehhh"
 pubDate: 2024-12-10
 category: "Poems"
@@ -58,3 +58,4 @@ Let curiosity lead,<br>
 Let empathy soften the edges.<br>
 In this,<br>
 Perhaps, we just might become more human.<br>
+<br><br><br><br><br><br>
