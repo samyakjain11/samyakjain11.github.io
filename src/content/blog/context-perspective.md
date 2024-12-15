@@ -2,7 +2,7 @@
 layout: ../../layouts/LayoutBlogPost.astro
 title: "Context & Perspective"
 description: "Ehhh"
-pubDate: 2024-12-10
+pubDate: 2024-12-03
 category: "Poems"
 ---
 To assume a shared context is to close one’s eyes— <br>
